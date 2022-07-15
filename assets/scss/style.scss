@@ -1,0 +1,36 @@
+
+@import "fonts";
+@import "reset";
+@import "variables";
+@import "nav";
+@import "header";
+@import "main";
+@import "btn";
+@import "footer";
+@import "media";
+
+$h1: (
+    fuente: 50px,
+    color: #017A1C,
+    familia: "Caveat",
+);
+
+    
+
+@media(max-width:576px){
+
+    .imgAzucar:hover{
+        transform: translate(0px);
+    }
+    .imgMaiz:hover{
+        transform: translate(0px);
+    }
+    .imgAlimento:hover{
+        transform: translate(0px);
+    }
+    .imgSnacks:hover{
+        transform: translate(0px);
+    }
+}    
+
+

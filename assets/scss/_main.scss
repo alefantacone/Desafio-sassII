@@ -1,0 +1,26 @@
+h3{
+    font-size: 40px;
+    color: #017A1C;
+    font-family: "Caveat";
+}
+.imgAzucar:hover{
+    transform: translate(10px,10px) scale(1.05);
+    transition: 1s ;
+}
+.imgMaiz:hover{
+    transform: translate(-10px,10px) scale(1.05);
+    transition: 1s ;
+}
+.imgAlimento:hover{
+    transform: translate(10px,-10px) scale(1.05);
+    transition: 1s ;
+}
+.imgSnacks:hover{
+    transform: translate(-10px,-10px) scale(1.05);
+    transition: 1s ;
+}
+.Contacto{
+    border: solid 1px #017A1C;
+    border-radius: 15px;
+    background-color:gainsboro;
+}

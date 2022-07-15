@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  color: #017A1C;
+  font-family: "Caveat";
+}
+
+h2 {
+  font-size: 60px;
+  font-family: "Bebas Neue";
+}
+
+h3 {
+  font-size: 40px;
+  color: #017A1C;
+  font-family: "Caveat";
+}
+
+.imgAzucar:hover {
+  transform: translate(10px, 10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgMaiz:hover {
+  transform: translate(-10px, 10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgAlimento:hover {
+  transform: translate(10px, -10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgSnacks:hover {
+  transform: translate(-10px, -10px) scale(1.05);
+  transition: 1s;
+}
+
+.Contacto {
+  border: solid 1px #017A1C;
+  border-radius: 15px;
+  background-color: gainsboro;
+}
+
+.btn, .btnSnacks, .btnAlimento, .btnMaiz, .btnAzucar {
+  background-color: #017A1C;
+  border: 0;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.btn:hover, .btnSnacks:hover, .btnAlimento:hover, .btnMaiz:hover, .btnAzucar:hover {
+  box-shadow: 9px 7px 16px 6px rgba(0, 0, 0, 0.54);
+  background-color: #2D9142;
+  border: 1px solid #2D9142;
+}
+
+.btnAzucar {
+  margin: 25px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.btnMaiz {
+  margin: 25px;
+  padding: 10px;
+  color: #000;
+}
+
+.btnAlimento {
+  margin: 25px;
+  padding: 10px;
+  color: #000;
+}
+
+.btnSnacks {
+  margin: 25px;
+  padding: 10px;
+  color: #000;
+}
+
+.footer {
+  background-color: #017A1C;
+  color: white;
+}
+.footer .pieh6 {
+  background-color: #014710;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+.footer .pieh6 h6 {
+  font-size: 15px;
+}
+
+@media (max-width: 576px) {
+  .imgAzucar:hover {
+    transform: translate(0px);
+  }
+  .imgMaiz:hover {
+    transform: translate(0px);
+  }
+  .imgAlimento:hover {
+    transform: translate(0px);
+  }
+  .imgSnacks:hover {
+    transform: translate(0px);
+  }
+}
