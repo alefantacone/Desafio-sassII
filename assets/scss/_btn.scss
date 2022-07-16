@@ -1,8 +1,8 @@
 .btn{
-    background-color: #017A1C;
-    border: 0;
-    border-radius: 15px;
-    color: #fff;        
+    background-color:map-get($btn , fondo ) ;
+    border:map-get($btn , borde) ;
+    border-radius:map-get($btn , radio ) ;
+    color:map-get($btn , color ) ;        
 }
 .btn:hover{
     box-shadow: 9px 7px 16px 6px rgba(0,0,0,0.54);

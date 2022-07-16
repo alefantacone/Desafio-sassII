@@ -1,7 +1,7 @@
 h1{   
-    font-size: 50px;
-    color: #017A1C;
-    font-family: "Caveat";
+    font-size:map-get($h1 , letra ) ;
+    color:map-get($h1 , color ) ;
+    font-family:map-get($h1 , familia ) ;
 }
 h2{
     font-size: 60px;
